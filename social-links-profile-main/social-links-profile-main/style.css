@@ -4,62 +4,65 @@
       margin: 0px;
       padding: 0px;
     }
-    .attribution { font-size: 11px; text-align: center; color: white;}
-    .attribution a { color: hsl(0, 0%, 100%); }
 
     body{
       background-color: hsl(0, 0%, 8%);
       font-family: "Inter", sans-serif;
       text-align: center;
     }
+    
+    main{
+      margin: auto;
+      padding: 20px;
+    }
 
+    .cotainer{
+      display: flex;
+      align-items: center;
+    }
+    
     #RedesSociais{
-      width: 375px;
-      min-height: 600px;
+      max-width: 375px;
       max-height: 700px;
-      margin: 10px auto;
+      margin: 30px auto 10px auto;
       padding: 10px;
       background-color: hsl(0, 0%, 12%);
       border-radius: 10px;
-      position: absolute;
-      left: 50%;
-      top: 50%;    
-      transform: translate(-50%, -50%)
     }
-
+    
     #ImgPerfil{
       text-align: center;
       padding-top: 30px;
       padding-bottom: 20px;
     }
-
+    
     #ImgPerfil > img{
       width: 90px;
       border-radius: 100%;
     }
-
+    
     h1{
       color: hsl(0, 0%, 100%);
       font-weight: 500;
       padding-bottom: 8px;
     }
-
+    
     h2{
       color: hsl(75, 94%, 57%);
       font-size: 13px;
       padding-bottom: 25px;
     }
-
+    
     #front{
       color: hsl(0, 0%, 76%);
       font-size: 14px;
       padding-bottom: 20px;
     }
-
+    
     .Redes{
       background-color: hsl(0, 0%, 20%);
       color: hsl(0, 0%, 76%);
-      width: 80%;
+      width: 90%;
       height: 35px;
       margin: auto;
       padding-top: 17px;
@@ -73,4 +76,15 @@
     .Redes:hover{
         background-color: hsl(75, 94%, 57%);
         color: hsl(0, 0%, 12%);
+    }
+
+    footer{
+      font-size: 11px;
+      text-align: center;
+      color: white;
+      margin: auto;
+    }
+
+    footer > a {
+       color: hsl(0, 0%, 100%); 
     }
